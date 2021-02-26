@@ -11,6 +11,21 @@ Display it to the browser.*/
 
 myTopChoices = ["color", "president", "sport", "game"]
 
+var color = ["blue", "lightblue", "black"]
+for (let i = 0; i < color.length; i++) {
+    console.log("My preferred color is " +color[i])
+  }
+  var president = ["Obama", "Bidden", "Bukele",]
+for (let i = 0; i < color.length; i++) {
+    console.log("My preferred president is " +president[i])
+  }
+  var sport = ["basketball", "soccer", "rugby"]
+for (let i = 0; i < color.length; i++) {
+    console.log("My preferred sport is " +sport[i])
+  }
+
+  //Objects
+
 color = {
     name : "Lightblue",
     type : "Primary",
