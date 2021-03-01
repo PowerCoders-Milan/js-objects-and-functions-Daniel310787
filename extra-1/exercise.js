@@ -23,7 +23,6 @@ Write the steps of your algorithm in pseudo-code in a second text file.
 Write the program in JavaScript. Find out how to get the current year from your computer.
 
 */
-var 
 
 function retirement() {
     birthday = prompt("Can I have your Birthday this way 01/01/1990","0");
@@ -33,10 +32,10 @@ function retirement() {
     retireYear = Number(birthday.split("/")[2])+Number(desireRetire);
     age = Number(today.getFullYear())-Number(birthday.split("/")[2]);
     leftYear = Number(desireRetire)-Number(age);
-    retiredDate = birthday.replace(birthday[2], retireYear)
+    retiredDate = birthday.replace(birthday.split("/")[2], retireYear)
 
     return ["You have " +leftYear+ " years left until you can retire",
-        "It's " +actYear+ ", so you can retire the " +retiredDate]
+        " It's " +actYear+ ", so you can retire the " +retiredDate]
 }
 
 window.alert(retirement())
